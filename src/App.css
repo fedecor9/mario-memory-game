@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "VT323", monospace;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.flex-y {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("../assets/background.jpg");
+  background-size: contain;
 }
