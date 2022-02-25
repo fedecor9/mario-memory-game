@@ -1,11 +1,15 @@
 import "../styles/header.css";
-import logo from "../mario.png";
+
 export const Header = (props) => {
   return (
     <header>
       <div className="header">
         <div className="score">
-          <img src={logo} width="80px"></img>
+          <img
+            src="/images/cards/mario.png"
+            width="80px"
+            alt="mario logo"
+          ></img>
           <h2>Memory game</h2>
         </div>
         <div className="score">

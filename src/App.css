@@ -55,6 +55,6 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  background-image: url("../assets/background.jpg");
+  background-image: url("../public/images/background.jpg");
   background-size: contain;
 }
