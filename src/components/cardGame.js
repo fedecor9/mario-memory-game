@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 export const CardGame = (props) => {
   let cards = props.cards;
-  cards = shuffleArray(cards);
+  //cards = shuffleArray(cards);
   return (
     <div className="">
       <h1>{cards.length}</h1>
