@@ -3,7 +3,7 @@ export const Card = (props) => {
 
   return (
     <div className="card ">
-      <img src={card.image}></img>
+      <img src={card.image} alt={card.name}></img>
     </div>
   );
 };
