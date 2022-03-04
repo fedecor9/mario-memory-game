@@ -6,7 +6,7 @@ export const Header = (props) => {
       <div className="header">
         <div className="score">
           <img
-            src="/images/cards/mario.png"
+            src={process.env.PUBLIC_URL + "/images/cards/mario.png"}
             width="80px"
             alt="mario logo"
           ></img>
