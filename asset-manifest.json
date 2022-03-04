@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mario-memory-game/static/css/main.0ed26bb2.css",
-    "main.js": "/mario-memory-game/static/js/main.9f157378.js",
+    "main.js": "/mario-memory-game/static/js/main.f54f872f.js",
     "static/media/background.jpg": "/mario-memory-game/static/media/background.ff8008905b9d79fa094f.jpg",
     "index.html": "/mario-memory-game/index.html",
     "main.0ed26bb2.css.map": "/mario-memory-game/static/css/main.0ed26bb2.css.map",
-    "main.9f157378.js.map": "/mario-memory-game/static/js/main.9f157378.js.map"
+    "main.f54f872f.js.map": "/mario-memory-game/static/js/main.f54f872f.js.map"
   },
   "entrypoints": [
     "static/css/main.0ed26bb2.css",
-    "static/js/main.9f157378.js"
+    "static/js/main.f54f872f.js"
   ]
 }
