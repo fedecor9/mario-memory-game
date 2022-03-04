@@ -14,7 +14,7 @@
   grid-auto-rows: 1fr;
   justify-content: center;
   margin: auto;
-  column-gap: 25px;
+  gap: 20px;
 }
 
 .card {

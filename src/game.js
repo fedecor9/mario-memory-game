@@ -28,7 +28,7 @@ export const createCards = () => {
   images.forEach((elem, i) => {
     cards.push({
       image: elem,
-      text: "Card " + i,
+      index: i,
       selected: false,
     });
   });
@@ -42,10 +42,15 @@ export const shuffleArray = (array) => {
     const randIndex = Math.floor(Math.random() * current);
     current--;
     //swap
-    //console.log(randIndex, current);
     const auxSwap = array[current];
     array[current] = array[randIndex];
     array[randIndex] = auxSwap;
   }
   return array;
 };
+
+export const gameFinished = (arr) => arr.every((elem) => elem.selected);
+export const resetGame = (arr) =>
+  arr.forEach((elem) => {
+    elem.selected = false;
+  });

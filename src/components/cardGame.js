@@ -1,8 +1,5 @@
 import { CardContainer } from "./cardContainer";
-import { shuffleArray } from "../game";
-
 import "../styles/main.css";
-import { useEffect, useState } from "react";
 
 export const CardGame = (props) => {
   let cards = props.cards;
@@ -11,7 +8,7 @@ export const CardGame = (props) => {
     <div className="">
       <h1>{cards.length}</h1>
       <button onClick={props.shuffleCards}>Shuffle</button>
-      <CardContainer cards={cards} />
+      <CardContainer cards={cards} shuffle={props.selectCard} />
     </div>
   );
 };

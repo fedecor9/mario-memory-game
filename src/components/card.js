@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 export const Card = (props) => {
-  const card = props.card;
+  useEffect(() => {}, [props.card]);
+
+  const selectCard = () => {
+    props.shuffle(props.card);
+  };
 
   return (
-    <div className="card ">
-      <img src={card.image} alt={card.name}></img>
+    <div className="card" onClick={selectCard}>
+      <img src={props.card.image} alt={props.card.name} />
     </div>
   );
 };

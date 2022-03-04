@@ -8,7 +8,7 @@ export const FinishModal = (props) => {
           <h1>Game finished !!!</h1>
         </header>
         <main className="modal-body">
-          <p>Score: 20</p>
+          <p>Score: {props.score}</p>
         </main>
         <footer className="modal-footer">
           <button onClick={props.closeModal}> Close</button>
