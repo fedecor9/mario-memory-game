@@ -1,5 +1,5 @@
 export const createCards = () => {
-  const cardsFolder = "/images/cards/";
+  const cardsFolder = "images/cards/";
   const images = [];
   //manually creating an array of strings with the names of the images
   images.push(cardsFolder + "anti guy.png");
