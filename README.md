@@ -1,6 +1,6 @@
 # Mario memory game
 App made with react
-## link
+## Link
 https://fedecor9.github.io/mario-memory-game/
 
 
